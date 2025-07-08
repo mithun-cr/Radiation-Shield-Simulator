@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-I0 = 100  # Initial intensity
+I0 = 100  
 
 materials = {
     "Lead": 1.24,
