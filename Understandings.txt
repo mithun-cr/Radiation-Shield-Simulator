@@ -1,0 +1,19 @@
+Project Understandings:
+
+Exponential Attenuation Behavior:
+It shows that a small increase in shield thickness initially causes a large reduction in radiation. But after a certain point, increasing thickness gives diminishing returns.
+
+Material Effectiveness:
+
+If we run simulations for different materials, we'll get different curves.
+
+Denser materials (like Lead) show steeper decay — meaning they block radiation faster.
+Lighter materials (like Concrete or Water) decay more slowly — requiring more thickness.
+
+Lead is the best per cm — but heavy, toxic, and expensive.
+
+Steel is next best — strong, easier to fabricate, often used in nuclear reactors and bunkers.
+
+Concrete is practical — cheap and bulky, good for buildings.
+
+Water is underrated — great for neutron shielding, used in reactors (like in nuclear submarines).
