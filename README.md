@@ -28,6 +28,8 @@ Output:
 
 A beautiful, illustrative graph is plotted, which shows how radiation intensity drops with increasing thickness.
 
+*IMPORTANT*- Always run the individual modules such as GUI, Main, etc. under Radiation-Shield-Simulator\src
+
 
 ![GitHub license](https://img.shields.io/github/license/mithun-cr/radiation-shield-simulator)
 ![GitHub repo size](https://img.shields.io/github/repo-size/mithun-cr/radiation-shield-simulator)
