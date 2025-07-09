@@ -17,3 +17,5 @@ Steel is next best — strong, easier to fabricate, often used in nuclear reacto
 Concrete is practical — cheap and bulky, good for buildings.
 
 Water is underrated — great for neutron shielding, used in reactors (like in nuclear submarines).
+
+Also understood the working of few tkinter and maplotlib functions.
