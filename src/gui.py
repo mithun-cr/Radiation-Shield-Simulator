@@ -4,18 +4,18 @@ from plotter import plot_intensity
 import numpy as np
 
 def start_gui():
-    root = tk.Tk()
-    root.title("Radiaation Shielding Simulator")
+    sim_gui = tk.Tk()
+    sim_gui.title("Radiaationn Shielding Simulator")
     materials=loaded_csv_data("../data/shielding_materials.csv")
     
-    tk.Label(root, text="Choose Material:").pack()
-    material_var = tk.StringVar(root)
+    tk.Label(sim_gui, text="Choose Material:").pack()
+    material_var = tk.StringVar(sim_gui)
     material_var.set("Lead")
-    dropdown = tk.OptionMenu(root, material_var, *materials.keys())
+    dropdown = tk.OptionMenu(sim_gui, material_var, *materials.keys())
     dropdown.pack()
 
-    tk.Label(root, text="Max Thickness (cm):").pack()
-    thickness_entry = tk.Entry(root)
+    tk.Label(sim_gui, text="Max Thickness (cm):").pack()
+    thickness_entry = tk.Entry(sim_gui)
     thickness_entry.insert(0, "10")
     thickness_entry.pack()
 
