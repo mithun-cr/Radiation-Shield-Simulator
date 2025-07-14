@@ -1,8 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-I0 = 100  
-
+I0 = 100
 materials = {
     "Lead": 1.24,
     "Concrete": 0.12,
@@ -10,9 +9,7 @@ materials = {
     "Polyethylene": 0.06,
     "Steel": 0.50
 }
-
 thickness = np.linspace(0, 30, 300)
-
 plt.figure(figsize=(10, 6))
 
 for material, mu in materials.items():
@@ -21,7 +18,7 @@ for material, mu in materials.items():
 
 plt.title("Radiation Intensity vs Shield Thickness")
 plt.xlabel("Thickness (cm)")
-plt.ylabel("Remaining Radiation Intensity")
+plt.ylabel("Remaining Radiation Intensity\n(Radiation that actually passes through)")
 plt.legend()
 plt.grid(True)
 plt.tight_layout()
