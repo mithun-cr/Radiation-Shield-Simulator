@@ -28,6 +28,17 @@ Output:
 
 A beautiful, illustrative graph is plotted, which shows how radiation intensity drops with increasing thickness.
 
+Instructions:
+
+     -Open Command Prompt
+     
+     - Run cd /*drivename *drivename:Radiation-Shield-Simulator/src
+     #Here the *drivename is the name of the drive where the file is extracted to. If you downloaded it to D drive, then cd /d d:Radiation-Shield-Simulator/src p.s. Here I did cd as I was originally on C drive          and had to change to D drive to access files.
+
+     -Run python gui.py and have fun!
+
+     -To customize existing data, head over to 'data' folder in the project file, and then edit the csv file as you wish.
+
 *IMPORTANT*- Always run the individual modules such as GUI, Main, etc. under Radiation-Shield-Simulator\src
 
 My code is currently simulating gamma or X-ray radiation shielding, because these types penetrate materials deeply and hey follow Beer’s Law due to interactions like Compton scattering, photoelectric effect, and pair production — all governed by μ.
