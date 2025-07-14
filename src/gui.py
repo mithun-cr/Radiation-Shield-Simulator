@@ -5,7 +5,7 @@ import numpy as np
 
 def start_gui():
     root = tk.Tk()
-    root.title("Radiation Shielding Simulator")
+    root.title("Radiaation Shielding Simulator")
     materials=loaded_csv_data("../data/shielding_materials.csv")
     
     tk.Label(root, text="Choose Material:").pack()
