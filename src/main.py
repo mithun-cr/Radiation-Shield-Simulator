@@ -1,9 +1,10 @@
-from data_loader import load_material_data
+from data_loader import loaded_csv_data
 from simulator import simulate_all_materials
+import os
 
 def main():
-    filepath = 'data/shielding_materials.csv'
-    materials = load_material_data(filepath)
+    filepath = os.path.join(os.path.dirname(__file__), '..', 'data', 'shielding_materials.csv')
+    materials = loaded_csv_data(filepath)
 
     thickness = 5        #in cm
     results = simulate_all_materials(materials, thickness)
