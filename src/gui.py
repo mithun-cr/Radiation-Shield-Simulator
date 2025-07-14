@@ -2,11 +2,13 @@ import tkinter as tk
 from data_loader import loaded_csv_data
 from plotter import plot_intensity
 import numpy as np
+import os
 
 def start_gui():
     sim_gui = tk.Tk()
-    sim_gui.title("Radiaationn Shielding Simulator")
-    materials=loaded_csv_data("../data/shielding_materials.csv")
+    sim_gui.title("Radiationn Shielding Simulator")
+    filepath=os.path.join(os.path.dirname(__file__), '..', 'data', 'shielding_materials.csv')
+    materials=loaded_csv_data(filepath)
     
     tk.Label(sim_gui, text="Choose Material:").pack()
     material_var = tk.StringVar(sim_gui)
@@ -20,9 +22,9 @@ def start_gui():
     thickness_entry.pack()
 
     def on_plot():
-        material = material_var.get()
-        mu = materials[material]
         try:
+            material = material_var.get()            
+            mu,density = materials[material]
             max_thickness = float(thickness_entry.get())
             thickness_values = np.linspace(0, max_thickness, 100)
             plot_intensity(mu, thickness_values)
