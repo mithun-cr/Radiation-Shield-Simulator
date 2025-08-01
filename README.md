@@ -12,8 +12,11 @@ I=I0 * e^-(μx),
 where
 
 I= Transmitted radiational intensity
+
 I0= Initial intensity
+
 μ= Linear attenuation coefficient (material-specific, unit: cm⁻¹)
+
 x= Thickness of the absorbing material (in cm)
 
 Attenuation Coefficient Of Materials Used(cm^-1):
