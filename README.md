@@ -41,8 +41,10 @@ Instructions:
 
 *IMPORTANT*- Always run the individual modules such as GUI, Main, etc. under Radiation-Shield-Simulator\src
 
-My code is currently simulating gamma or X-ray radiation shielding, because these types penetrate materials deeply and hey follow Beer’s Law due to interactions like Compton scattering, photoelectric effect, and pair production — all governed by μ.
+My code is currently simulating gamma or X-ray radiation shielding, because these types penetrate materials deeply and they follow Beer’s Law due to interactions like Compton scattering, photoelectric effect, and pair production — all governed by μ.
 
+References:
+           https://www.nrc.gov/docs/ML1126/ML11262A163.pdf
 
 ![GitHub license](https://img.shields.io/github/license/mithun-cr/radiation-shield-simulator)
 ![GitHub repo size](https://img.shields.io/github/repo-size/mithun-cr/radiation-shield-simulator)
