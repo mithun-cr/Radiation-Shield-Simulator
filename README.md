@@ -46,7 +46,10 @@ Instructions:
 
 My code is currently simulating gamma or X-ray radiation shielding, because these types penetrate materials deeply and they follow Beer’s Law due to interactions like Compton scattering, photoelectric effect, and pair production — all governed by μ.
 
+All linear attenuation coefficients in data/*.csv correspond to specific photon energies. Mass attenuation data should be used for generality (μ/ρ) and converted to μ using density (μ = (μ/ρ)×ρ). This simulator uses narrow-beam approximation and does not model scatter/buildup unless explicitly toggled.
+
 References:
+           https://physics.nist.gov/PhysRefData/Xcom/html/xcom1.html?
            https://www.nrc.gov/docs/ML1126/ML11262A163.pdf
 
 ![GitHub license](https://img.shields.io/github/license/mithun-cr/radiation-shield-simulator)
